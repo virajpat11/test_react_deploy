@@ -21,7 +21,7 @@ artifacts:
     - buildspec.yml
     - scripts/install_dependencies.sh
     - scripts/start_server.sh
-
+  base-directory: build
   discard-paths: yes
 
 cache:
