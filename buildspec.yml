@@ -19,8 +19,8 @@ artifacts:
   files:
     - appspec.yml
     - buildspec.yml
-    - scripts/install_dependencies.sh
-    - scripts/start_server.sh
+    - install_dependencies.sh
+    - start_server.sh
 
   discard-paths: yes
 
