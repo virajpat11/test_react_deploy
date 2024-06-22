@@ -17,13 +17,13 @@ phases:
 
 artifacts:
   files:
-    # - node_modules/**/*
-    # - build/**/*
-    # - appspec.yml
-    # - buildspec.yml
-    # - install_dependencies.sh
-    # - start_server.sh
-    - '**/*'
+    - node_modules/**/*
+    - build/**/*
+    - appspec.yml
+    - buildspec.yml
+    - install_dependencies.sh
+    - start_server.sh
+    # - '**/*'
 
   discard-paths: yes
 
