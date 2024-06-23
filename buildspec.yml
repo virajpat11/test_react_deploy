@@ -25,6 +25,8 @@ artifacts:
     - buildspec.yml
     - install_dependencies.sh
     - start_server.sh
+    - package.json
+    - package-lock.json
     # - '**/*'
 
   discard-paths: yes
