@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 20.x # Specify the Node.js version
+      nodejs: 22.x # Specify the Node.js version
     commands:
       - echo Installing dependencies...
       - npm install
