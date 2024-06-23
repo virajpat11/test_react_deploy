@@ -13,11 +13,12 @@ phases:
       - npm run build
   post_build:
     commands:
+      - mkdir test1
       - echo Build completed.
 
 artifacts:
   files:
-    - node_modules/**/*
+    # - node_modules/**/*
     - build/**/*
     - appspec.yml
     - buildspec.yml
