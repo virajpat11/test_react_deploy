@@ -20,7 +20,7 @@ phases:
 artifacts:
   files:
     # - node_modules/**/*
-    # - build/**/*
+    - build/**/*
     - appspec.yml
     - buildspec.yml
     - install_dependencies.sh
